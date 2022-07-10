@@ -1,0 +1,28 @@
+.movie-container,
+.options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-container,
+.options-info-container {
+  align-items: center;
+  padding-top: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info-container p {
+  margin: 0px 40px;
+}
+.options-info-container p {
+  margin: 0px 35px;
+  font-weight: bold;
+}
+.options-container p {
+  font-weight: bold;
+}
+.options-container {
+  margin-right: 107px;
+}
